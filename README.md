@@ -26,6 +26,18 @@
 | 🗄️ 数据库 | [db-tutorial](https://github.com/chrysos371/db-tutorial) | MySQL / Redis / MongoDB | 中文、有实战案例、持续更新 |
 | 🏗️ 系统设计 | [system-design-primer](https://github.com/chrysos371/system-design-primer) | 系统设计入门 | ⭐ 280k — 系统设计面试的事实标准 |
 | 🛠️ 工具链 | [missing-semester](https://missing.csail.mit.edu/) | Shell / Git / Vim / 调试 / Docker | MIT 官方课，教你 CS 课堂从来不讲的那些事 |
+| 📊 传统 ML | [ML-For-Beginners](https://github.com/chrysos371/ML-For-Beginners) | 12 周 ML 课程 + quiz + 代码 | ⭐ 70k — 微软出品，比网课更 hands-on |
+| 📊 传统 ML | [handson-ml3](https://github.com/chrysos371/handson-ml3) | 《Hands-On ML》第三版配套代码 | ⭐ 30k — Scikit-Learn + Keras + TF，ML 书的天花板 |
+| 📊 传统 ML | [homemade-machine-learning](https://github.com/chrysos371/homemade-machine-learning) | 从零手写 ML 算法 | ⭐ 23k — 不调包，线性回归/决策树/SVM/KNN 全手写 |
+| 🧠 深度学习 | [d2l-zh](https://github.com/chrysos371/d2l-zh) | 李沐《动手学深度学习》中文版 | ⭐ 65k — PyTorch 实现，每章可运行 Notebook |
+| 🧠 深度学习 | [pytorch-deep-learning](https://github.com/chrysos371/pytorch-deep-learning) | PyTorch 实战教程 | ⭐ 12k — 从 Tensor 基础到 Paper 复现，注释极详细 |
+| 🧠 深度学习 | [pytorch-tutorial](https://github.com/chrysos371/pytorch-tutorial) | PyTorch 代码示例合集 | ⭐ 30k — 每个模型一个 .py，拿来即用 |
+| 🤖 LLM 底层 | [LLMs-from-scratch](https://github.com/chrysos371/LLMs-from-scratch) | 从零实现 GPT-2 (PyTorch) | ⭐ 40k — Raschka 著，代码质量天花板 |
+| 🤖 LLM 应用 | [generative-ai-for-beginners](https://github.com/chrysos371/generative-ai-for-beginners) | 21 课 LLM 全栈 | ⭐ 75k — 微软出品，prompt → RAG → agent |
+| 🤖 LLM 应用 | [llm-course](https://github.com/chrysos371/llm-course) | LLM 全路线图 | ⭐ 45k — 构建 → 评估 → 部署，带 roadmap |
+| 🤖 LLM 应用 | [awesome-llm-apps](https://github.com/chrysos371/awesome-llm-apps) | 80+ 可运行 LLM 项目 | ⭐ 30k — RAG/agent/voice/MCP 全覆盖 |
+| 🤖 LLM 应用 | [llm-zoomcamp](https://github.com/chrysos371/llm-zoomcamp) | 免费 10 周 RAG 训练营 | ⭐ 15k — 生产级 RAG：向量库/部署/监控 |
+| 🤖 LLM 微调 | [LLaMA-Factory](https://github.com/chrysos371/LLaMA-Factory) | LoRA/QLoRA 微调大模型 | ⭐ 55k — Web UI，一行命令微调 Llama/Qwen |
 | 📚 免费书籍 | [free-programming-books-zh_CN](https://github.com/chrysos371/free-programming-books-zh_CN) | 免费中文编程书籍索引 | ⭐ 110k — 当词典用，需要时查 |
 
 ---
@@ -44,6 +56,9 @@
 | 数据库 | **CMU 15-445** | CMU | ~28h | Bustub 实验写一个数据库内核，Pavlo 讲课极有感染力 |
 | 计算机体系结构 | **Nand2Tetris** | — | ~15h | 从与非门开始造一台计算机，偏硬但值得 |
 | 工具链 | **Missing Semester** | MIT | ~10h | Shell · Git · Vim · 调试 · Docker |
+| 机器学习 | **CS229** | Stanford | ~40h | 吴恩达亲授，ML 理论的基石 |
+| 深度学习 | **动手学深度学习 (d2l)** | Amazon | ~30h | 李沐出品，中文友好，PyTorch 实操 |
+| 大模型应用 | **DeepLearning.AI Short Courses** | — | 每门 1-2h | RAG/Agent/Function Calling，免费且更新极快 |
 
 ---
 
@@ -68,24 +83,42 @@
 - [ ] 综合复习 — [CS-Notes](https://github.com/chrysos371/CS-Notes) 全本 — 约 2 周
 - [ ] 模拟面试 — [coding-interview-university](https://github.com/chrysos371/coding-interview-university) — 约 2 周
 
+### 第四轮：AI & 大模型（约 20 周）
+- [ ] 传统 ML 基础 — [ML-For-Beginners](https://github.com/chrysos371/ML-For-Beginners) — 约 3 周
+- [ ] 从零手写 ML — [homemade-machine-learning](https://github.com/chrysos371/homemade-machine-learning) — 约 3 周
+- [ ] ML 实战 — [handson-ml3](https://github.com/chrysos371/handson-ml3) — 约 4 周
+- [ ] 深度学习 — **CS229** (视频) + [d2l-zh](https://github.com/chrysos371/d2l-zh) + [pytorch-deep-learning](https://github.com/chrysos371/pytorch-deep-learning) — 约 6 周
+- [ ] LLM 底层 — [LLMs-from-scratch](https://github.com/chrysos371/LLMs-from-scratch) — 约 2 周
+- [ ] LLM 应用 — [generative-ai-for-beginners](https://github.com/chrysos371/generative-ai-for-beginners) + [llm-course](https://github.com/chrysos371/llm-course) — 约 2 周
+
 ---
 
 ## 🗺️ 推荐学习顺序
 
 ```
- Week 1        工具链  ██░░░░░░░░░░░░░░░░░░░░░░░  Missing Semester
- Week 2-4      计算机  ███████░░░░░░░░░░░░░░░░░░  CSAPP 视频
- Week 5-9      算法    ████████████░░░░░░░░░░░░░  MIT 6.006 + Python
- Week 10-14    OS     ██████████████████░░░░░░░  OSTEP 视频+书+笔记
- Week 15-17    网络    ██████████████████████░░░  CS144 + CS-Notes
- Week 18-20    数据库  ████████████████████████░  CMU 15-445 + db-tutorial
- Week 21-24    系统设计 ████████████████████████░  system-design-primer
- Week 25+      冲刺    ██████████████████████████  刷题 + 面经
+ Phase 1: CS 基础 (Week 1-24)
+   Week 1        工具链    █░░░░░░░░░░░░░░░░░░░░  Missing Semester
+   Week 2-4      计算机    ███░░░░░░░░░░░░░░░░░░  CSAPP
+   Week 5-9      算法      ██████░░░░░░░░░░░░░░░  MIT 6.006 + Python
+   Week 10-14    OS       ████████████░░░░░░░░░░  OSTEP
+   Week 15-17    网络      ███████████████░░░░░░░  CS144 + CS-Notes
+   Week 18-20    数据库    ██████████████████░░░░░  CMU 15-445 + db-tutorial
+   Week 21-24    系统设计  █████████████████████░░░  system-design-primer
+
+ Phase 2: AI / 大模型 (Week 25-44)
+   Week 25-27   传统 ML   ██████████████████████░░  ML-For-Beginners
+   Week 28-30   手写 ML   ███████████████████████░░  homemade-machine-learning
+   Week 31-34   ML 实战   ████████████████████████  handson-ml3
+   Week 35-40   深度学习   ████████████████████████  CS229 + d2l-zh + PyTorch
+   Week 41-44   LLM       ████████████████████████  LLMs-from-scratch + gen-ai
+
+ Phase 3: 冲刺 (Week 45+)
+   Week 45+     刷题/面试  ████████████████████████  LeetCode + CS-Notes + 面经
 ```
 
 ---
 
-## 📖 README 仓库说明
+## 📖 仓库目录
 
 | 仓库 | 说明 |
 |------|------|
@@ -97,6 +130,18 @@
 | [OSTEP-Notes](https://github.com/chrysos371/Operating-Systems-Three-Easy-Pieces-NOTES) | 《操作系统导论》中文笔记 |
 | [db-tutorial](https://github.com/chrysos371/db-tutorial) | MySQL、Redis、MongoDB 教程 |
 | [system-design-primer](https://github.com/chrysos371/system-design-primer) | 系统设计面试指南 |
+| [ML-For-Beginners](https://github.com/chrysos371/ML-For-Beginners) | 微软出品，12 周传统机器学习课程 |
+| [handson-ml3](https://github.com/chrysos371/handson-ml3) | 《Hands-On ML》第三版配套代码 |
+| [homemade-machine-learning](https://github.com/chrysos371/homemade-machine-learning) | 从零手写 ML 算法，不调包 |
+| [d2l-zh](https://github.com/chrysos371/d2l-zh) | 李沐《动手学深度学习》中文版 |
+| [pytorch-deep-learning](https://github.com/chrysos371/pytorch-deep-learning) | PyTorch 实战教程 |
+| [pytorch-tutorial](https://github.com/chrysos371/pytorch-tutorial) | PyTorch 代码示例合集 |
+| [LLMs-from-scratch](https://github.com/chrysos371/LLMs-from-scratch) | 从零实现 GPT-2 (PyTorch) |
+| [generative-ai-for-beginners](https://github.com/chrysos371/generative-ai-for-beginners) | 微软 21 课 LLM 全栈教程 |
+| [llm-course](https://github.com/chrysos371/llm-course) | LLM 构建→评估→部署全路线图 |
+| [awesome-llm-apps](https://github.com/chrysos371/awesome-llm-apps) | 80+ 可运行 RAG/Agent 项目 |
+| [llm-zoomcamp](https://github.com/chrysos371/llm-zoomcamp) | 免费 10 周生产级 RAG 训练营 |
+| [LLaMA-Factory](https://github.com/chrysos371/LLaMA-Factory) | LoRA/QLoRA 微调大模型，Web UI |
 | [free-programming-books-zh_CN](https://github.com/chrysos371/free-programming-books-zh_CN) | 免费中文编程书籍索引 |
 
 ---
