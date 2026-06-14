@@ -27,14 +27,11 @@
 | 🏗️ 系统设计 | [system-design-primer](https://github.com/chrysos371/system-design-primer) | 系统设计入门 | ⭐ 280k — 系统设计面试的事实标准 |
 | 🛠️ 工具链 | [missing-semester](https://missing.csail.mit.edu/) | Shell / Git / Vim / 调试 / Docker | MIT 官方课，教你 CS 课堂从来不讲的那些事 |
 | 📊 传统 ML | [ML-For-Beginners](https://github.com/chrysos371/ML-For-Beginners) | 12 周 ML 课程 + quiz + 代码 | ⭐ 70k — 微软出品，比网课更 hands-on |
-| 📊 传统 ML | [handson-ml3](https://github.com/chrysos371/handson-ml3) | 《Hands-On ML》第三版配套代码 | ⭐ 30k — Scikit-Learn + Keras + TF，ML 书的天花板 |
 | 📊 传统 ML | [homemade-machine-learning](https://github.com/chrysos371/homemade-machine-learning) | 从零手写 ML 算法 | ⭐ 23k — 不调包，线性回归/决策树/SVM/KNN 全手写 |
 | 🧠 深度学习 | [d2l-zh](https://github.com/chrysos371/d2l-zh) | 李沐《动手学深度学习》中文版 | ⭐ 65k — PyTorch 实现，每章可运行 Notebook |
-| 🧠 深度学习 | [pytorch-deep-learning](https://github.com/chrysos371/pytorch-deep-learning) | PyTorch 实战教程 | ⭐ 12k — 从 Tensor 基础到 Paper 复现，注释极详细 |
 | 🧠 深度学习 | [pytorch-tutorial](https://github.com/chrysos371/pytorch-tutorial) | PyTorch 代码示例合集 | ⭐ 30k — 每个模型一个 .py，拿来即用 |
 | 🤖 LLM 底层 | [LLMs-from-scratch](https://github.com/chrysos371/LLMs-from-scratch) | 从零实现 GPT-2 (PyTorch) | ⭐ 40k — Raschka 著，代码质量天花板 |
 | 🤖 LLM 应用 | [generative-ai-for-beginners](https://github.com/chrysos371/generative-ai-for-beginners) | 21 课 LLM 全栈 | ⭐ 75k — 微软出品，prompt → RAG → agent |
-| 🤖 LLM 应用 | [llm-course](https://github.com/chrysos371/llm-course) | LLM 全路线图 | ⭐ 45k — 构建 → 评估 → 部署，带 roadmap |
 | 🤖 LLM 应用 | [awesome-llm-apps](https://github.com/chrysos371/awesome-llm-apps) | 80+ 可运行 LLM 项目 | ⭐ 30k — RAG/agent/voice/MCP 全覆盖 |
 | 🤖 LLM 应用 | [llm-zoomcamp](https://github.com/chrysos371/llm-zoomcamp) | 免费 10 周 RAG 训练营 | ⭐ 15k — 生产级 RAG：向量库/部署/监控 |
 | 🤖 LLM 微调 | [LLaMA-Factory](https://github.com/chrysos371/LLaMA-Factory) | LoRA/QLoRA 微调大模型 | ⭐ 55k — Web UI，一行命令微调 Llama/Qwen |
@@ -131,14 +128,11 @@
 | [db-tutorial](https://github.com/chrysos371/db-tutorial) | MySQL、Redis、MongoDB 教程 |
 | [system-design-primer](https://github.com/chrysos371/system-design-primer) | 系统设计面试指南 |
 | [ML-For-Beginners](https://github.com/chrysos371/ML-For-Beginners) | 微软出品，12 周传统机器学习课程 |
-| [handson-ml3](https://github.com/chrysos371/handson-ml3) | 《Hands-On ML》第三版配套代码 |
 | [homemade-machine-learning](https://github.com/chrysos371/homemade-machine-learning) | 从零手写 ML 算法，不调包 |
 | [d2l-zh](https://github.com/chrysos371/d2l-zh) | 李沐《动手学深度学习》中文版 |
-| [pytorch-deep-learning](https://github.com/chrysos371/pytorch-deep-learning) | PyTorch 实战教程 |
 | [pytorch-tutorial](https://github.com/chrysos371/pytorch-tutorial) | PyTorch 代码示例合集 |
 | [LLMs-from-scratch](https://github.com/chrysos371/LLMs-from-scratch) | 从零实现 GPT-2 (PyTorch) |
 | [generative-ai-for-beginners](https://github.com/chrysos371/generative-ai-for-beginners) | 微软 21 课 LLM 全栈教程 |
-| [llm-course](https://github.com/chrysos371/llm-course) | LLM 构建→评估→部署全路线图 |
 | [awesome-llm-apps](https://github.com/chrysos371/awesome-llm-apps) | 80+ 可运行 RAG/Agent 项目 |
 | [llm-zoomcamp](https://github.com/chrysos371/llm-zoomcamp) | 免费 10 周生产级 RAG 训练营 |
 | [LLaMA-Factory](https://github.com/chrysos371/LLaMA-Factory) | LoRA/QLoRA 微调大模型，Web UI |
