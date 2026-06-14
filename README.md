@@ -30,22 +30,41 @@
 
 ---
 
+## 🎬 公开课索引
+
+> 每个方向只选 1 门。YouTube 搜课程代号即可，B 站均有搬运和字幕。
+> 原则：**视频课搭建知识骨架，文字笔记填充细节和面试考点。**
+
+| 方向 | 课程 | 院校 | 课时 | 看点 |
+|------|------|------|------|------|
+| 算法与数据结构 | **MIT 6.006** | MIT | ~24h | 算法导论经典，Leiserson 亲授，比看书生动十倍 |
+| 计算机系统 | **CSAPP (15-213)** | CMU | ~30h | "计算机系统"的终极答案，必看 |
+| 操作系统 | **OSTEP** (配书) | Wisconsin | — | 配合上方 OSTEP-Notes 一起啃 |
+| 计算机网络 | **CS144** | Stanford | ~20h | 手写 TCP 协议栈，做完就真懂网络了 |
+| 数据库 | **CMU 15-445** | CMU | ~28h | Bustub 实验写一个数据库内核，Pavlo 讲课极有感染力 |
+| 计算机体系结构 | **Nand2Tetris** | — | ~15h | 从与非门开始造一台计算机，偏硬但值得 |
+| 工具链 | **Missing Semester** | MIT | ~10h | Shell · Git · Vim · 调试 · Docker |
+
+---
+
 ## 📊 学习进度
 
 > 每完成一个模块就打勾，commit 记录就是你的学习日志。
 
-### 第一轮：基础扫盲（约 4 周）
-- [ ] 工具链 — [missing-semester](https://missing.csail.mit.edu/) — 约 1 周
-- [ ] 算法入门 — [javascript-algorithms](https://github.com/chrysos371/javascript-algorithms) — 约 3 周
+### 第一轮：地基（约 5 周）
+- [ ] 工具链 — [missing-semester](https://missing.csail.mit.edu/) (视频) — 约 1 周
+- [ ] 计算机系统 — [CSAPP](https://www.bilibili.com/video/BV1iW411d7hd) (视频) — 约 3 周
+- [ ] 算法入门 — [javascript-algorithms](https://github.com/chrysos371/javascript-algorithms) — 约 1 周（先浏览结构）
 
-### 第二轮：核心四件套（约 14 周）
-- [ ] 算法进阶 — [Python](https://github.com/chrysos371/Python) / [awesome-coding-js](https://github.com/chrysos371/awesome-coding-js) — 约 5 周
-- [ ] 操作系统 — [OSTEP-Notes](https://github.com/chrysos371/Operating-Systems-Three-Easy-Pieces-NOTES) — 约 4 周
-- [ ] 计算机网络 — [CS-Notes](https://github.com/chrysos371/CS-Notes) 网络章节 — 约 2 周
-- [ ] 数据库 — [db-tutorial](https://github.com/chrysos371/db-tutorial) — 约 3 周
+### 第二轮：核心四件套（约 16 周）
+- [ ] 算法进阶 — **MIT 6.006** (视频) + [Python](https://github.com/chrysos371/Python) / [awesome-coding-js](https://github.com/chrysos371/awesome-coding-js) — 约 5 周
+- [ ] 操作系统 — **OSTEP** (视频+书) + [OSTEP-Notes](https://github.com/chrysos371/Operating-Systems-Three-Easy-Pieces-NOTES) — 约 5 周
+- [ ] 计算机网络 — **CS144** (视频, 手写 TCP) + [CS-Notes](https://github.com/chrysos371/CS-Notes) 网络章节 — 约 3 周
+- [ ] 数据库 — **CMU 15-445** (视频) + [db-tutorial](https://github.com/chrysos371/db-tutorial) — 约 3 周
 
 ### 第三轮：进阶 & 面试（约 8 周）
 - [ ] 系统设计 — [system-design-primer](https://github.com/chrysos371/system-design-primer) — 约 4 周
+- [ ] 计算机体系结构 — **Nand2Tetris** (视频, 选做) — 约 2 周
 - [ ] 综合复习 — [CS-Notes](https://github.com/chrysos371/CS-Notes) 全本 — 约 2 周
 - [ ] 模拟面试 — [coding-interview-university](https://github.com/chrysos371/coding-interview-university) — 约 2 周
 
@@ -54,13 +73,14 @@
 ## 🗺️ 推荐学习顺序
 
 ```
- Week 1       工具链 ████░░░░░░░░░░░░░░░░░░░░░░  Missing Semester
- Week 2-4     算法   ██████████░░░░░░░░░░░░░░░░░  JS → Python
- Week 5-8     操作系统 ██████████████████░░░░░░░░  OSTEP
- Week 9-10    网络   ██████████████████████░░░░░  CS-Notes 网络
- Week 11-13   数据库  ██████████████████████████░  db-tutorial
- Week 14-17   系统设计 ██████████████████████████░  system-design-primer
- Week 18-26   冲刺   ████████████████████████████  刷题 + 面经
+ Week 1        工具链  ██░░░░░░░░░░░░░░░░░░░░░░░  Missing Semester
+ Week 2-4      计算机  ███████░░░░░░░░░░░░░░░░░░  CSAPP 视频
+ Week 5-9      算法    ████████████░░░░░░░░░░░░░  MIT 6.006 + Python
+ Week 10-14    OS     ██████████████████░░░░░░░  OSTEP 视频+书+笔记
+ Week 15-17    网络    ██████████████████████░░░  CS144 + CS-Notes
+ Week 18-20    数据库  ████████████████████████░  CMU 15-445 + db-tutorial
+ Week 21-24    系统设计 ████████████████████████░  system-design-primer
+ Week 25+      冲刺    ██████████████████████████  刷题 + 面经
 ```
 
 ---
