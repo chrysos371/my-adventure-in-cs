@@ -4,6 +4,10 @@
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/chrysos371/my-adventure-in-cs)](https://github.com/chrysos371/my-adventure-in-cs)
 
+> 📖 **Web 版**：[chrysos371.github.io/my-adventure-in-cs](https://chrysos371.github.io/my-adventure-in-cs/) — docsify 深色主题，支持全文搜索
+
+![docsify 预览](docs/preview.png)
+
 ---
 
 ## 🎯 这是什么
@@ -36,6 +40,8 @@
 | 🔢 算法 (JS) | [javascript-algorithms](https://github.com/chrysos371/javascript-algorithms) | JS 实现主流算法与数据结构 | ⭐ 190k — 每个算法有图解 + 复杂度分析 |
 | 🐍 算法 (Python) | [Python](https://github.com/chrysos371/Python) | Python 实现所有算法 | ⭐ 190k — TheAlgorithms 生态中最完整的语言版本 |
 | 📝 算法解析 | [awesome-coding-js](https://github.com/chrysos371/awesome-coding-js) | JS 算法中文详解 | 中文题解，配合 LeetCode 食用 |
+| 📖 数据结构 | [hello-algo](https://github.com/chrysos371/hello-algo) | 动画图解数据结构与算法 | ⭐ 126k — 14 种语言实现，每个概念都有可视化动画 |
+| 🎯 刷题策略 | [fucking-algorithm](https://github.com/chrysos371/fucking-algorithm) | LeetCode 刷题方法论 | ⭐ 133k — 不背答案，教你识别题型和解题套路 |
 | 💻 操作系统 | [OSTEP-Notes](https://github.com/chrysos371/Operating-Systems-Three-Easy-Pieces-NOTES) | OSTEP 中文笔记 + 习题解答 | 公认最好的 OS 入门书的中文伴读 |
 | 🌐 计算机网络 | 见 [CS-Notes](https://github.com/chrysos371/CS-Notes) 网络章节 | TCP/IP、HTTP、DNS | 面试覆盖够了，深入看《计算机网络：自顶向下》 |
 | 🗄️ 数据库 | [db-tutorial](https://github.com/chrysos371/db-tutorial) | MySQL / Redis / MongoDB | 中文、有实战案例、持续更新 |
@@ -109,10 +115,11 @@
 - [ ] 前端基础 — [Web](https://github.com/chrysos371/Web) HTML/CSS/JS 快速过一遍 — 约 1 周
 - [ ] 后端 FastAPI — [full-stack-fastapi-template](https://github.com/chrysos371/full-stack-fastapi-template) — 选做，需要时再看
 
-### 第一轮：地基（约 5 周）
+### 第一轮：地基（约 6 周）
 - [ ] 工具链 — [missing-semester](https://missing.csail.mit.edu/) (视频) — 约 1 周
 - [ ] 计算机系统 — [CSAPP](https://www.bilibili.com/video/BV1iW411d7hd) (视频) — 约 3 周
 - [ ] 算法入门 — [javascript-algorithms](https://github.com/chrysos371/javascript-algorithms) — 约 1 周（先浏览结构）
+- [ ] 数据结构 — [hello-algo](https://github.com/chrysos371/hello-algo) — 约 1 周（动画理解核心数据结构）
 
 ### 第二轮：核心四件套（约 16 周）
 - [ ] 算法进阶 — **MIT 6.006** (视频) + [Python](https://github.com/chrysos371/Python) / [awesome-coding-js](https://github.com/chrysos371/awesome-coding-js) — 约 5 周
@@ -125,6 +132,7 @@
 - [ ] 计算机体系结构 — **Nand2Tetris** (视频, 选做) — 约 2 周
 - [ ] 综合复习 — [CS-Notes](https://github.com/chrysos371/CS-Notes) 全本 — 约 2 周
 - [ ] 模拟面试 — [coding-interview-university](https://github.com/chrysos371/coding-interview-university) — 约 2 周
+- [ ] 刷题方法论 — [fucking-algorithm](https://github.com/chrysos371/fucking-algorithm) — 按需查阅，配合 LeetCode 实战
 
 ### 第四轮：AI & 大模型（约 20 周）
 - [ ] 传统 ML 基础 — [ML-For-Beginners](https://github.com/chrysos371/ML-For-Beginners) — 约 3 周
@@ -148,11 +156,10 @@
    Week 21-24    系统设计  █████████████████████░░░  system-design-primer
 
  Phase 2: AI / 大模型 (Week 25-44)
-   Week 25-27   传统 ML   ██████████████████████░░  ML-For-Beginners
-   Week 28-30   手写 ML   ███████████████████████░░  homemade-machine-learning
-   Week 31-34   ML 实战   ████████████████████████  handson-ml3
-   Week 35-40   深度学习   ████████████████████████  CS229 + d2l-zh + PyTorch
-   Week 41-44   LLM       ████████████████████████  LLMs-from-scratch + gen-ai
+   Week 25-27   传统 ML   █████████████████████░░░  ML-For-Beginners
+   Week 28-31   手写 ML   ██████████████████████░░  homemade-machine-learning
+   Week 32-37   深度学习   ████████████████████████  CS229 + d2l-zh + PyTorch
+   Week 38-42   LLM       ████████████████████████  LLMs-from-scratch + gen-ai
 
  Phase 3: 冲刺 (Week 45+)
    Week 45+     刷题/面试  ████████████████████████  LeetCode + CS-Notes + 面经
@@ -162,37 +169,44 @@
 
 ## 📖 仓库目录
 
+### 💬 编程语言
 | 仓库 | 说明 |
 |------|------|
 | [CPlusPlusThings](https://github.com/chrysos371/CPlusPlusThings) | 从基础到 C++20 全覆盖，B 站视频配套 |
 | [modern-cpp-tutorial](https://github.com/chrysos371/modern-cpp-tutorial) | C++11/14/17/20 现代特性教程 |
-| [MyTinySTL](https://github.com/chrysos371/MyTinySTL) | 从零手写 STL |
+| [MyTinySTL](https://github.com/chrysos371/MyTinySTL) | 从零手写 STL，搞懂容器/迭代器/分配器 |
 | [30-Days-Of-Python](https://github.com/chrysos371/30-Days-Of-Python) | 30 天 Python 系统教程 |
 | [awesome-python](https://github.com/chrysos371/awesome-python) | Python 框架/库/工具全索引 |
-| [You-Dont-Know-JS](https://github.com/chrysos371/You-Dont-Know-JS) | JS 深度圣经 |
+| [You-Dont-Know-JS](https://github.com/chrysos371/You-Dont-Know-JS) | JS 深度圣经，闭包/原型链/异步 |
 | [javascript](https://github.com/chrysos371/javascript) | Airbnb JS 代码风格指南 |
 | [javascript-interview-questions](https://github.com/chrysos371/javascript-interview-questions) | 1000+ JS 面试题 |
-| [linux-command](https://github.com/chrysos371/linux-command) | 中文 Linux 命令大全 |
-| [the-art-of-command-line](https://github.com/chrysos371/the-art-of-command-line) | 命令行艺术一页纸 |
+
+### 🔧 工程能力
+| 仓库 | 说明 |
+|------|------|
+| [linux-command](https://github.com/chrysos371/linux-command) | 中文 Linux 命令大全，600+ 命令 |
+| [the-art-of-command-line](https://github.com/chrysos371/the-art-of-command-line) | 命令行艺术一页纸，有中文翻译 |
 | [awesome-compose](https://github.com/chrysos371/awesome-compose) | Docker 官方 Compose 模板库 |
 | [full-stack-fastapi-template](https://github.com/chrysos371/full-stack-fastapi-template) | FastAPI 全栈项目模板 |
 | [Web](https://github.com/chrysos371/Web) | 前端三件套入门图文教程 |
-| [CS-Notes](https://github.com/chrysos371/CS-Notes) | 从基础到 C++20 全覆盖，B 站视频配套 |
-| [modern-cpp-tutorial](https://github.com/chrysos371/modern-cpp-tutorial) | C++11/14/17/20 现代特性教程 |
-| [MyTinySTL](https://github.com/chrysos371/MyTinySTL) | 从零手写 STL |
-| [30-Days-Of-Python](https://github.com/chrysos371/30-Days-Of-Python) | 30 天 Python 系统教程 |
-| [awesome-python](https://github.com/chrysos371/awesome-python) | Python 框架/库/工具全索引 |
-| [You-Dont-Know-JS](https://github.com/chrysos371/You-Dont-Know-JS) | JS 深度圣经 |
-| [javascript](https://github.com/chrysos371/javascript) | Airbnb JS 代码风格指南 |
-| [javascript-interview-questions](https://github.com/chrysos371/javascript-interview-questions) | 1000+ JS 面试题 |
+
+### 🏗️ CS 基础
+| 仓库 | 说明 |
+|------|------|
 | [CS-Notes](https://github.com/chrysos371/CS-Notes) | 技术面试必备，中文社区最经典的面试笔记 |
 | [coding-interview-university](https://github.com/chrysos371/coding-interview-university) | 从零到 Google 的自学路线 |
 | [javascript-algorithms](https://github.com/chrysos371/javascript-algorithms) | 每个算法都有 JavaScript 实现和图解 |
 | [Python](https://github.com/chrysos371/Python) | 用 Python 实现所有经典算法 |
 | [awesome-coding-js](https://github.com/chrysos371/awesome-coding-js) | JavaScript 算法题中文详解 |
+| [hello-algo](https://github.com/chrysos371/hello-algo) | 动画图解数据结构与算法，14 种语言 |
+| [fucking-algorithm](https://github.com/chrysos371/fucking-algorithm) | LeetCode 刷题方法论，不背答案教套路 |
 | [OSTEP-Notes](https://github.com/chrysos371/Operating-Systems-Three-Easy-Pieces-NOTES) | 《操作系统导论》中文笔记 |
 | [db-tutorial](https://github.com/chrysos371/db-tutorial) | MySQL、Redis、MongoDB 教程 |
 | [system-design-primer](https://github.com/chrysos371/system-design-primer) | 系统设计面试指南 |
+
+### 🤖 AI / 机器学习
+| 仓库 | 说明 |
+|------|------|
 | [ML-For-Beginners](https://github.com/chrysos371/ML-For-Beginners) | 微软出品，12 周传统机器学习课程 |
 | [homemade-machine-learning](https://github.com/chrysos371/homemade-machine-learning) | 从零手写 ML 算法，不调包 |
 | [d2l-zh](https://github.com/chrysos371/d2l-zh) | 李沐《动手学深度学习》中文版 |
