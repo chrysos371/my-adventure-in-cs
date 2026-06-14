@@ -14,6 +14,21 @@
 
 ## 📂 知识体系
 
+### 💬 编程语言（地基）
+
+| 语言 | 仓库 | 说明 | 为什么选它 |
+|------|------|------|------------|
+| 🔵 C++ | [CPlusPlusThings](https://github.com/chrysos371/CPlusPlusThings) | 从基础到 C++20，可运行代码示例 | ⭐ 38k — 中文 C++ 教程最全的一本，B 站视频配套 |
+| 🔵 C++ | [modern-cpp-tutorial](https://github.com/chrysos371/modern-cpp-tutorial) | C++11/14/17/20 现代特性 | ⭐ 25k — 中英双语，结构最清晰 |
+| 🔵 C++ | [MyTinySTL](https://github.com/chrysos371/MyTinySTL) | 从零手写 STL | ⭐ 11k — 搞懂容器/迭代器/分配器底层 |
+| 🟡 Python | [30-Days-Of-Python](https://github.com/chrysos371/30-Days-Of-Python) | 30 天 Python 系统教程 | ⭐ 40k — 每天一个主题 + 练习，循序渐进 |
+| 🟡 Python | [awesome-python](https://github.com/chrysos371/awesome-python) | Python 生态全索引 | ⭐ 230k — 框架/库/工具，当词典查 |
+| 🟢 JavaScript | [You-Dont-Know-JS](https://github.com/chrysos371/You-Dont-Know-JS) | JS 深度圣经 | ⭐ 180k — 不讲语法讲"为什么"：闭包/原型链/异步 |
+| 🟢 JavaScript | [javascript](https://github.com/chrysos371/javascript) | JS 代码风格指南 | ⭐ 145k — Airbnb 出品，业界干净代码的事实标准 |
+| 🟢 JavaScript | [javascript-interview-questions](https://github.com/chrysos371/javascript-interview-questions) | 1000+ JS 面试题 | ⭐ 25k — 从基础到 ES2022 |
+
+### 🏗️ CS 基础
+
 | 方向 | 仓库 | 说明 | 为什么选它 |
 |------|------|------|------------|
 | 🎯 面试综合 | [CS-Notes](https://github.com/chrysos371/CS-Notes) | 算法/网络/OS/DB/Java | ⭐ 150k — 中文面试笔记中最系统的一本 |
@@ -26,6 +41,10 @@
 | 🗄️ 数据库 | [db-tutorial](https://github.com/chrysos371/db-tutorial) | MySQL / Redis / MongoDB | 中文、有实战案例、持续更新 |
 | 🏗️ 系统设计 | [system-design-primer](https://github.com/chrysos371/system-design-primer) | 系统设计入门 | ⭐ 280k — 系统设计面试的事实标准 |
 | 🛠️ 工具链 | [missing-semester](https://missing.csail.mit.edu/) | Shell / Git / Vim / 调试 / Docker | MIT 官方课，教你 CS 课堂从来不讲的那些事 |
+### 🤖 AI / 机器学习
+
+| 方向 | 仓库 | 说明 | 为什么选它 |
+|------|------|------|------------|
 | 📊 传统 ML | [ML-For-Beginners](https://github.com/chrysos371/ML-For-Beginners) | 12 周 ML 课程 + quiz + 代码 | ⭐ 70k — 微软出品，比网课更 hands-on |
 | 📊 传统 ML | [homemade-machine-learning](https://github.com/chrysos371/homemade-machine-learning) | 从零手写 ML 算法 | ⭐ 23k — 不调包，线性回归/决策树/SVM/KNN 全手写 |
 | 🧠 深度学习 | [d2l-zh](https://github.com/chrysos371/d2l-zh) | 李沐《动手学深度学习》中文版 | ⭐ 65k — PyTorch 实现，每章可运行 Notebook |
@@ -63,6 +82,14 @@
 
 > 每完成一个模块就打勾，commit 记录就是你的学习日志。
 
+### 第零轮：编程语言（贯穿全程，优先 8 周打底）
+- [ ] Python 入门 — [30-Days-Of-Python](https://github.com/chrysos371/30-Days-Of-Python) — 约 4 周
+- [ ] JS 入门 — [You-Dont-Know-JS](https://github.com/chrysos371/You-Dont-Know-JS) + [javascript](https://github.com/chrysos371/javascript) 风格指南 — 约 2 周
+- [ ] JS 面试 — [javascript-interview-questions](https://github.com/chrysos371/javascript-interview-questions) — 按需查阅
+- [ ] C++ 入门 — [CPlusPlusThings](https://github.com/chrysos371/CPlusPlusThings) — 约 4 周
+- [ ] 现代 C++ — [modern-cpp-tutorial](https://github.com/chrysos371/modern-cpp-tutorial) — 约 2 周
+- [ ] C++ 进阶 — [MyTinySTL](https://github.com/chrysos371/MyTinySTL) — 选做，想深入时再看
+
 ### 第一轮：地基（约 5 周）
 - [ ] 工具链 — [missing-semester](https://missing.csail.mit.edu/) (视频) — 约 1 周
 - [ ] 计算机系统 — [CSAPP](https://www.bilibili.com/video/BV1iW411d7hd) (视频) — 约 3 周
@@ -83,10 +110,9 @@
 ### 第四轮：AI & 大模型（约 20 周）
 - [ ] 传统 ML 基础 — [ML-For-Beginners](https://github.com/chrysos371/ML-For-Beginners) — 约 3 周
 - [ ] 从零手写 ML — [homemade-machine-learning](https://github.com/chrysos371/homemade-machine-learning) — 约 3 周
-- [ ] ML 实战 — [handson-ml3](https://github.com/chrysos371/handson-ml3) — 约 4 周
-- [ ] 深度学习 — **CS229** (视频) + [d2l-zh](https://github.com/chrysos371/d2l-zh) + [pytorch-deep-learning](https://github.com/chrysos371/pytorch-deep-learning) — 约 6 周
+- [ ] 深度学习 — **CS229** (视频) + [d2l-zh](https://github.com/chrysos371/d2l-zh) + [pytorch-tutorial](https://github.com/chrysos371/pytorch-tutorial) — 约 6 周
 - [ ] LLM 底层 — [LLMs-from-scratch](https://github.com/chrysos371/LLMs-from-scratch) — 约 2 周
-- [ ] LLM 应用 — [generative-ai-for-beginners](https://github.com/chrysos371/generative-ai-for-beginners) + [llm-course](https://github.com/chrysos371/llm-course) — 约 2 周
+- [ ] LLM 应用 — [generative-ai-for-beginners](https://github.com/chrysos371/generative-ai-for-beginners) + [llm-zoomcamp](https://github.com/chrysos371/llm-zoomcamp) — 约 3 周
 
 ---
 
@@ -119,6 +145,14 @@
 
 | 仓库 | 说明 |
 |------|------|
+| [CPlusPlusThings](https://github.com/chrysos371/CPlusPlusThings) | 从基础到 C++20 全覆盖，B 站视频配套 |
+| [modern-cpp-tutorial](https://github.com/chrysos371/modern-cpp-tutorial) | C++11/14/17/20 现代特性教程 |
+| [MyTinySTL](https://github.com/chrysos371/MyTinySTL) | 从零手写 STL |
+| [30-Days-Of-Python](https://github.com/chrysos371/30-Days-Of-Python) | 30 天 Python 系统教程 |
+| [awesome-python](https://github.com/chrysos371/awesome-python) | Python 框架/库/工具全索引 |
+| [You-Dont-Know-JS](https://github.com/chrysos371/You-Dont-Know-JS) | JS 深度圣经 |
+| [javascript](https://github.com/chrysos371/javascript) | Airbnb JS 代码风格指南 |
+| [javascript-interview-questions](https://github.com/chrysos371/javascript-interview-questions) | 1000+ JS 面试题 |
 | [CS-Notes](https://github.com/chrysos371/CS-Notes) | 技术面试必备，中文社区最经典的面试笔记 |
 | [coding-interview-university](https://github.com/chrysos371/coding-interview-university) | 从零到 Google 的自学路线 |
 | [javascript-algorithms](https://github.com/chrysos371/javascript-algorithms) | 每个算法都有 JavaScript 实现和图解 |
