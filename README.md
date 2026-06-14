@@ -41,6 +41,17 @@
 | 🗄️ 数据库 | [db-tutorial](https://github.com/chrysos371/db-tutorial) | MySQL / Redis / MongoDB | 中文、有实战案例、持续更新 |
 | 🏗️ 系统设计 | [system-design-primer](https://github.com/chrysos371/system-design-primer) | 系统设计入门 | ⭐ 280k — 系统设计面试的事实标准 |
 | 🛠️ 工具链 | [missing-semester](https://missing.csail.mit.edu/) | Shell / Git / Vim / 调试 / Docker | MIT 官方课，教你 CS 课堂从来不讲的那些事 |
+
+### 🔧 工程能力
+
+| 方向 | 仓库 | 说明 | 为什么选它 |
+|------|------|------|------------|
+| 🐧 Linux | [linux-command](https://github.com/chrysos371/linux-command) | 中文 Linux 命令大全，600+ 命令 | ⭐ 35k — 带网页搜索版，随时查随时用 |
+| 🐧 Linux | [the-art-of-command-line](https://github.com/chrysos371/the-art-of-command-line) | 一页纸命令行艺术 | ⭐ 152k — 有中文翻译，适合通读建立体系 |
+| 🐳 Docker | [awesome-compose](https://github.com/chrysos371/awesome-compose) | Docker 官方 Compose 模板合集 | ⭐ 38k — Flask+Postgres 等真实多容器项目，照着跑一遍就会 |
+| 🖥️ 后端 | [full-stack-fastapi-template](https://github.com/chrysos371/full-stack-fastapi-template) | FastAPI 全栈项目模板 | ⭐ 38k — FastAPI 作者维护，JWT+PostgreSQL+Docker 全配 |
+| 🎨 前端基础 | [Web](https://github.com/chrysos371/Web) | HTML/CSS/JS 前端入门图文教程 | ⭐ 25k — 从零讲三件套，当字典翻 |
+
 ### 🤖 AI / 机器学习
 
 | 方向 | 仓库 | 说明 | 为什么选它 |
@@ -91,6 +102,12 @@
 - [ ] C++ 入门 — [CPlusPlusThings](https://github.com/chrysos371/CPlusPlusThings) — 约 4 周
 - [ ] 现代 C++ — [modern-cpp-tutorial](https://github.com/chrysos371/modern-cpp-tutorial) — 约 2 周
 - [ ] C++ 进阶 — [MyTinySTL](https://github.com/chrysos371/MyTinySTL) — 选做，想深入时再看
+
+### 第零点五轮：工程能力（约 3 周，可与第一轮并行）
+- [ ] Linux 基础 — [linux-command](https://github.com/chrysos371/linux-command) + [the-art-of-command-line](https://github.com/chrysos371/the-art-of-command-line) — 约 1 周
+- [ ] Docker — [awesome-compose](https://github.com/chrysos371/awesome-compose) — 约 1 周
+- [ ] 前端基础 — [Web](https://github.com/chrysos371/Web) HTML/CSS/JS 快速过一遍 — 约 1 周
+- [ ] 后端 FastAPI — [full-stack-fastapi-template](https://github.com/chrysos371/full-stack-fastapi-template) — 选做，需要时再看
 
 ### 第一轮：地基（约 5 周）
 - [ ] 工具链 — [missing-semester](https://missing.csail.mit.edu/) (视频) — 约 1 周
@@ -148,6 +165,19 @@
 | 仓库 | 说明 |
 |------|------|
 | [CPlusPlusThings](https://github.com/chrysos371/CPlusPlusThings) | 从基础到 C++20 全覆盖，B 站视频配套 |
+| [modern-cpp-tutorial](https://github.com/chrysos371/modern-cpp-tutorial) | C++11/14/17/20 现代特性教程 |
+| [MyTinySTL](https://github.com/chrysos371/MyTinySTL) | 从零手写 STL |
+| [30-Days-Of-Python](https://github.com/chrysos371/30-Days-Of-Python) | 30 天 Python 系统教程 |
+| [awesome-python](https://github.com/chrysos371/awesome-python) | Python 框架/库/工具全索引 |
+| [You-Dont-Know-JS](https://github.com/chrysos371/You-Dont-Know-JS) | JS 深度圣经 |
+| [javascript](https://github.com/chrysos371/javascript) | Airbnb JS 代码风格指南 |
+| [javascript-interview-questions](https://github.com/chrysos371/javascript-interview-questions) | 1000+ JS 面试题 |
+| [linux-command](https://github.com/chrysos371/linux-command) | 中文 Linux 命令大全 |
+| [the-art-of-command-line](https://github.com/chrysos371/the-art-of-command-line) | 命令行艺术一页纸 |
+| [awesome-compose](https://github.com/chrysos371/awesome-compose) | Docker 官方 Compose 模板库 |
+| [full-stack-fastapi-template](https://github.com/chrysos371/full-stack-fastapi-template) | FastAPI 全栈项目模板 |
+| [Web](https://github.com/chrysos371/Web) | 前端三件套入门图文教程 |
+| [CS-Notes](https://github.com/chrysos371/CS-Notes) | 从基础到 C++20 全覆盖，B 站视频配套 |
 | [modern-cpp-tutorial](https://github.com/chrysos371/modern-cpp-tutorial) | C++11/14/17/20 现代特性教程 |
 | [MyTinySTL](https://github.com/chrysos371/MyTinySTL) | 从零手写 STL |
 | [30-Days-Of-Python](https://github.com/chrysos371/30-Days-Of-Python) | 30 天 Python 系统教程 |
